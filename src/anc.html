@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/anc.css">
+    <title>Add New Campgrounds Page</title>
+</head>
+<body>
+    <nav>
+        <div class="nav__container container">
+                <div class="nav__mobile">
+                    <a href="#"><img src="/Assets/Logo.svg" alt="Logo"></a>
+                    <a href="#" class="nav__menu"><img class="nav__menu_image" src="/Assets/Hamburger Menu.svg" alt="menu"></a>
+                </div>
+                
+                <div class="nav__nav-links">
+                    <div class="nav__home">
+                        <a href="#" class="nav__homelink">Home</a>
+                    </div>
+                    <div class="nav__userdisplay">
+                        <a href="#" class="nav__username"><b>bahafestival</b></a>
+                        <a href="#" class="nav__logout">Logout</a>
+                    </div>
+                </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="main__container container">
+            <h1 class="main__title">Add New Campground</h1>
+            <form action="#" method="post" enctype="multipart/form-data" class="main__form">
+                <div class="main__campground-name">
+                    <p>Campground Name</p>
+                    <input type="text" placeholder="Seven Sisters Waterfall" name="name">
+                </div>
+                <div class="main__price">
+                    <p>Price</p>
+                    <input type="text" placeholder="$149" name="price">
+                </div>
+                <div class="main__image">
+                    <p>Image</p>
+                    <input type="text" placeholder="www.google.com" name="imageURL" value="">
+                </div>
+                <div class="main__description">
+                    <p>Description</p>
+                    <textarea name="description" placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, delectus.ddssssssssssssssss" ></textarea>
+                </div>
+                <div class="main__btn">
+                    <input type="submit" value="Add Campground" class="main__btn_button">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer__container container">
+            <a href="#"><img src="/Assets/Logo.svg" alt="Logo"></a>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="menu.js"></script>
+</body>
+</html>
